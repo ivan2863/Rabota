@@ -1,6 +1,7 @@
-#include
-int main()
+#include <iostream>
+int main() 
 {
-std::cout << "Hello world!\n";
+  static_assert("C++17");
+  std::cout << "Hello world!\n";
 return 0;
 }
